@@ -172,3 +172,6 @@ h2 ~ p {
 .footer-nav a {
   color: #ccc;
 }
+.footer .social-list {
+  margin: 2em 1em 0;
+}
