@@ -127,6 +127,9 @@ h2 ~ p {
 }
 
 /* HOMEPAGE STLES */
+.home {
+  min-width: 100%;
+}
 .home-section {
   margin: 6rem auto;
   max-width: 980px;
