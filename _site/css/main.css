@@ -284,6 +284,10 @@ h2 ~ p {
 .blog-posts .post-header {
   font-size: 0.8em;
 }
+.post {
+  width: 100%;
+}
+
 .post-header {
   margin-bottom: 1.5em;
 }
