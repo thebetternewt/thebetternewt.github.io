@@ -6,14 +6,12 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
   min-height: 100vh;
 }
-.content-container {
-  display: flex;
-  flex: 1 1 auto;
-  padding-top: 10vh;
-  width: 100%;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', helvetica, sans-serif;
+  font-weight: 100;
 }
 h1 {
   font-size: 7vw;
@@ -40,6 +38,12 @@ h2 ~ p {
   margin: 1em auto 0;
   max-width: 70%;
   text-align: center;
+}
+.content-container {
+  display: flex;
+  flex: 1 1 auto;
+  padding-top: 10vh;
+  width: 100%;
 }
 
 /* HEADER STYLES */
@@ -207,14 +211,14 @@ h2 ~ p {
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.7rem;
   font-weight: bold;
-  height: 2.5em;
-  padding-top: 0.85em;
+  height: 1.5em;
+  padding-top: 0.27em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list {
   list-style: none;
@@ -290,7 +294,9 @@ h2 ~ p {
 }
 .bio-box h3 {
   color: #fff;
+  font-family: 'Montserrat', helvetica, sans-serif;
   font-size: 1.5em;
+  font-weight: 500;
   margin: -40px 0 1em;
   text-align: center;
   text-transform: uppercase;
@@ -595,6 +601,7 @@ h2 ~ p {
   .header-nav {
     background-color: #444;
     box-sizing: border-box;
+    /*height: 0;*/
     left: 0;
     max-height: 0;
     overflow: hidden;
@@ -631,6 +638,7 @@ h2 ~ p {
   }
   .mobile-menu-check:checked ~ .header-nav {
     max-height: 1000px;
+    /*height: 90vh;*/
   }
   .mobile-menu-check:checked ~ .show-mobile-menu:after {
     background-color: #000;
